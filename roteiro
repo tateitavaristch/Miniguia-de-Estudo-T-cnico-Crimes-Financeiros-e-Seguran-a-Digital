@@ -1,0 +1,76 @@
+Miniguia de Estudo Técnico: Crimes Financeiros e Segurança Digital (Foco DCIBER)
+
+Este manual estabelece os parâmetros técnico-jurídicos para a excelência investigativa no âmbito da repressão aos crimes cibernéticos financeiros. O objetivo é capacitar na identificação do Modus Operandi (MO), na preservação da materialidade delitiva e na compreensão da responsabilidade civil das instituições sob a ótica dos tribunais superiores.
+
+1. Análise do Cenário de Fraudes Bancárias (Referência: 2025)
+
+Pesquisas recentes indicam que 36% dos brasileiros já foram vítimas ou alvos de tentativas de golpes financeiros. A materialidade dessas infrações em 2025 demonstra uma migração de ataques puramente técnicos para híbridos, onde a engenharia social é o catalisador.
+
+MODALIDADE DE GOLPE	MECANISMO TÉCNICO/OPERACIONAL	IMPACTO ESTATÍSTICO (%)
+Clonagem de Cartão (NFC)	Captura de dados via rádio frequência durante pagamentos por aproximação; fraude silenciosa detectada apenas a posteriori.	40% das fraudes reportadas
+Golpe do WhatsApp	Invasão de conta (takeover) ou uso de perfil falso para simular estado de necessidade financeira junto a contatos próximos.	28% dos ataques
+Falsa Central de Atendimento	Uso de vishing e spoofing telefônico para induzir a vítima a realizar transferências imediatas ou instalar malwares.	Alta relevância (Vetor de 36% dos alvos)
+
+2. Engenharia Social e Técnicas de Phishing
+
+No contexto cibercriminoso, a Engenharia Social configura-se como o vetor primordial para a captação ilícita de dados sensíveis. O agente explora a vulnerabilidade psíquica do alvo para contornar protocolos de segurança técnica.
+
+Táticas de Manipulação e Indícios de Autoria:
+
+1. Autoridade: O criminoso mimetiza o tom de voz e o script de prepostos bancários, frequentemente portando dados parciais da vítima para validar a farsa.
+2. Urgência: Notificações de "invasão de conta" ou "transações suspeitas" são utilizadas para anular a capacidade crítica do usuário.
+3. Confiança: Estabelecida por meio de tecnologias de mascaramento de número e ambientes sonoros que replicam call centers.
+
+Variantes Técnicas Identificadas pela DCIBER:
+
+* Spear Phishing: Ataques direcionados com alto grau de personalização.
+* Pharming: Manipulação de DNS para redirecionamento de tráfego a portais fraudulentos com certificados SSL forjados.
+* Smishing (SMS) e Vishing (Voz): Vetores de contato que induzem a instalação de aplicativos de acesso remoto ou a realização de "transações teste" para suposto cancelamento de fraudes.
+
+Diretriz Investigativa: Atentar para a "Regra dos 10 minutos". Criminosos mantêm a linha telefônica ocupada mesmo após a vítima desligar. Se o alvo retoma o contato imediatamente, a chamada permanece conectada ao fraudador, impossibilitando a comunicação com o canal oficial.
+
+3. Mecanismo Especial de Devolução (MED 2.0): Arquitetura de Rastreio
+
+O MED 2.0, consolidado pelo Banco Central, é a principal ferramenta de asfixia financeira do crime organizado, permitindo a recuperação de ativos em cascata. Especialistas estimam que o protocolo pode reduzir em até 40% os golpes bem-sucedidos.
+
+Fluxo Operacional de Recuperação:
+
+1. Contestação e Registro: A vítima aciona o botão de contestação no autoatendimento do aplicativo da instituição de origem.
+2. Notificação Interbancária: A instituição de origem notifica a recebedora em até 30 minutos via sistema Pix.
+3. Rastreio entre Contas Intermediárias: O diferencial do MED 2.0 é a capacidade de perseguir o "caminho do dinheiro" além do primeiro beneficiário, bloqueando valores dispersos em contas de "laranjas" subsequentes.
+4. Bloqueio Automático: Contas identificadas com indícios de fraude sofrem bloqueio cautelar imediato antes do encerramento da análise técnica.
+5. Restituição: Confirmada a fraude, os valores são estornados em um prazo estimado de até 11 dias.
+
+Ressalva Técnica: O mecanismo é inaplicável em casos de erro de digitação do usuário ou transferências voluntárias sem vício de consentimento.
+
+4. Responsabilidade Objetiva das Instituições Financeiras
+
+A jurisprudência do Superior Tribunal de Justiça (STJ) fundamenta-se na doutrina do Risco do Empreendimento, estabelecendo que a segurança do ecossistema digital é dever indelegável do banco.
+
+Súmula 479 (STJ): "As instituições financeiras respondem objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias."
+
+Tema Repetitivo 466 (STJ): Ratifica que a responsabilidade civil é configurada pelo Fortuito Interno — risco inerente à atividade — não sendo excluída pela culpa de terceiro se houver falha no monitoramento do sistema.
+
+Dever de Vigilância e Hipervulnerabilidade:
+
+* Destoamento de Perfil: Segundo o REsp 2.052.228, o banco tem o dever de identificar e impedir transações atípicas. A ausência de filtros que obstem movimentações fora do histórico do cliente caracteriza defeito na prestação do serviço.
+* Proteção Especial: A análise deve considerar a hipervulnerabilidade sob a ótica do Estatuto da Pessoa Idosa e da Convenção Interamericana sobre a Proteção dos Direitos Humanos dos Idosos, exigindo rigor máximo no bloqueio de transações fraudulentas contra este público.
+
+5. Fronteiras Tecnológicas e Tendências Criminais
+
+O monitoramento estratégico da DCIBER deve antecipar o uso de tecnologias emergentes no cibercrime:
+
+* Inteligência Artificial (IA): Utilizada por organizações criminosas para a criação de mídias sintéticas (deepfakes) e e-mails de phishing com gramática impecável; em contrapartida, é o núcleo da análise comportamental bancária para detecção de anomalias.
+* Blockchain: Foco no desenvolvimento de soluções voltadas à auditabilidade e imutabilidade de registros financeiros, dificultando a ocultação de bens.
+* Biometria Avançada: Substituição progressiva de senhas estáticas por reconhecimento facial e biometria comportamental (ritmo de digitação e navegação).
+
+6. Fontes e Referências para Estudo
+
+Para o aprofundamento da cadeia de custódia e fundamentos jurídicos, recomenda-se:
+
+* Agência Brasil (2026): Relatório de Impacto das Novas Regras de Segurança do Pix/MED 2.0.
+* Migalhas (2025): Alerta sobre a sofisticação das fraudes bancárias e estatísticas Febraban.
+* Sicredi (2024): Manual de Engenharia Social e a "Regra dos 10 minutos".
+* Superior Tribunal de Justiça (STJ): Informativos de Jurisprudência, Súmula 479 e Acórdão REsp 2.052.228.
+* TJDFT (2025): Guia de Precedentes Qualificados sobre o Tema 466.
+* VR Advogados (2024): Tratado Técnico sobre Phishing, Smishing e Vishing Bancário.
